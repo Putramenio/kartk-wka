@@ -20,7 +20,7 @@ function fib($fib)
  else if ($fib ==1) return 1;
  else
     {
-                return fib($fib-1) + fib($fib-2)
+    return fib($fib-1) + fib($fib-2)
     } 
 }
 echo fib($fib);
