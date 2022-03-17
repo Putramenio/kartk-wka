@@ -8,22 +8,21 @@
 $silnia=$_GET['silnia'];
 $fib=$_GET['dibonacci'];
 $s=1;
-$f;
 
 for($i=1;$i<=$silnia;$i++){
-    $s=$s*$i;
+$s=$s*$i;
 }
-echo $s;
+echo "$s <br>";
 
-function fib($fib,$f)
+function fib($fib)
 {
-    if($fib == 0) return 0;
-    else if ($fib ==1) return 1;
-    else
+        if($fib == 0) return 0;
+        else if ($fib ==1) return 1;
+        else
     {
-        $f=($fib-1) + fib($fib-2);
-        echo $f
+                return fib($fib-1) + fib($fib-2)
     } 
 }
 
+echo fib($fib);
 ?>
