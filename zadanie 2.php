@@ -3,7 +3,6 @@
     Silnia:<input type="text" name="silnia">
     Fibonaci:<input type="text" name="fibonacci">
     <input name="sub" type="submit" value="oblicz">
-
 <?php
 $silnia=$_GET['silnia'];
 $fib=$_GET['dibonacci'];
