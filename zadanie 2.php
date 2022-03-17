@@ -16,13 +16,12 @@ echo "$s <br>";
 
 function fib($fib)
 {
-        if($fib == 0) return 0;
-        else if ($fib ==1) return 1;
-        else
+ if($fib == 0) return 0;
+ else if ($fib ==1) return 1;
+ else
     {
                 return fib($fib-1) + fib($fib-2)
     } 
 }
-
 echo fib($fib);
 ?>
